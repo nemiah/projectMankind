@@ -1,0 +1,107 @@
+.window {
+	position:absolute;
+	top:40px;
+	right:30px;
+	width:295px;
+	min-height:100px;
+	-moz-box-shadow: 2px 2px 2px black;
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomleft:10px;
+}
+
+.windowHandle {
+	font-size:9px;
+	padding: 2px;
+	-moz-border-radius-topright:10px;
+	cursor:pointer;
+}
+
+
+.windowContent {
+	font-size:10px;
+	padding-bottom:4px;
+}
+
+.windowContent p {
+	padding:4px;
+}
+
+.windowContent h2 {
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding:2px;
+	padding-left:4px;
+}
+
+.windowContent * + h2 {
+	margin-top:13px;
+}
+
+.windowContent table {
+	width:100%;
+}
+
+.windowContent table td {
+	width:100px;
+	text-align:right;
+	padding:2px;
+}
+
+.windowContent table td + td {
+	width:auto;
+	text-align:left;
+}
+
+.windowContent label{
+	font-weight:bold;
+}
+
+.windowContent ul {
+	margin-left:20px;
+}
+
+.windowContent img[onclick] {
+	cursor:pointer;
+	-moz-border-radius:5px;
+	border-width:1px;
+	border-style:dashed;
+}
+
+
+.windowClose {
+	font-size:9px;
+	padding: 2px;
+	margin-top:-2px;
+	margin-right:-2px;
+	-moz-border-radius-topright:10px;
+	cursor:pointer;
+	width:20px;
+	float:right;
+	text-align:center;
+}
+
+.windowReload {
+	font-size:9px;
+	padding: 2px;
+	margin-top:-2px;
+	margin-right:-2px;
+	cursor:pointer;
+	width:20px;
+	float:right;
+	text-align:center;
+}
+
+
+.planetHeader span {
+	font-size:16px;
+	font-weight:bold;
+	margin-top:10px;
+	display:block;
+}
+.planetHeader img {
+	float:left;
+	width:50px;
+	margin-right:10px;
+}
+

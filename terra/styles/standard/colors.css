@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+
+/*
+ * General
+ */
+ a:link, a:hover, a:active, a:visited {
+	 color:grey;
+ }
+
+ .copyright {
+	background-color:black;
+	color:grey;
+}
+
+/*
+ * Windows
+ */
+
+ .window {
+	color:white;
+	background-color:#221a48;
+	border:1px solid #3c2e7d;
+}
+
+.windowHandle {
+	background-color:#3c2e7d;
+	color:#ddcef9;
+}
+
+.windowClose:hover, .windowReload:hover{
+	background-color:transparent;
+}
+
+.windowClose, .windowReload {
+	background-color:#221a48;
+}
+
+.windowContent img[onclick] {
+	border-color:#3c2e7d;
+}
+
+.windowContent img[onclick]:hover {
+	background-color:#130F29;
+}
+
+.windowContent .selected {
+	background-color:#130F29;
+}
+/*
+ * Playfield
+ */
+
+#playFieldBG1 {
+	background-color:black;
+}

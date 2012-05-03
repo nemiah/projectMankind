@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	font-size:0.8em;
+	font-family:sans-serif;
+}
+
+html {
+	overflow:hidden;
+}
+
+.icons {
+	position:absolute;
+	right:0px;
+	bottom:20px;
+}
+
+.icons img {
+	cursor:pointer;
+	margin-right:15px;
+}
+
+.icons img:hover {
+	opacity:0.5;
+}
+
+.copyright {
+	opacity:0.8;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	width:100%;
+	text-align:right;
+	font-size:10px;
+	padding:3px;
+	padding-right:15px;
+}
+
+a:hover {
+	text-decoration:none;
+}
